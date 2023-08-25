@@ -1,0 +1,45 @@
+html{
+	font-family: sans-serif, arial, verdana;
+}
+main{
+	margin-left:20px;
+	margin-right:20px;
+}
+header{
+	background-color:white;
+	padding:10px;
+	margin-bottom:100px;
+}
+.logos{
+	display:flex;
+	justify-content:space-evenly;
+	border:1px solid;
+	text-align:center;
+	position:relative;
+	padding:10px;
+	isolation:isolate;
+	overflow:visible;
+}
+.logos::after{
+	content:'';
+	position:absolute;
+	z-index:-1;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background-color:white;
+	opacity:0.7;
+}
+#titulo_center{
+	text-align:center;
+	color:white;
+	font-size:20px;
+}
+body{
+	background-image:url(misc/fondo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+}
