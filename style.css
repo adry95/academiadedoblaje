@@ -6,14 +6,15 @@ main{
 	margin-right:20px;
 }
 header{
-	background-color:white;
+	background-color:lemonchiffon;
 	padding:10px;
 	margin-bottom:100px;
+	text-align: center;
 }
 .logos{
 	display:flex;
 	justify-content:space-evenly;
-	border:1px solid;
+	/*border:1px solid black;*/
 	text-align:center;
 	position:relative;
 	padding:10px;
@@ -28,13 +29,13 @@ header{
 	bottom:0px;
 	left:0px;
 	right:0px;
-	background-color:white;
-	opacity:0.7;
+	background-color:ghostwhite;
+	opacity:0.4;
 }
 #titulo_center{
 	text-align:center;
 	color:white;
-	font-size:20px;
+	font-size:25px;
 }
 body{
 	background-image:url(misc/fondo.png);
