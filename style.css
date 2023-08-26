@@ -11,6 +11,9 @@ header{
 	margin-bottom:100px;
 	text-align: center;
 }
+h1{
+	font-size: 50px;
+}
 .logos{
 	display:flex;
 	justify-content:space-evenly;
