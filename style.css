@@ -32,6 +32,9 @@ header{
 	background-color:ghostwhite;
 	opacity:0.4;
 }
+#undertale{
+	border-radius: 100px;
+}
 #titulo_center{
 	text-align:center;
 	color:white;
