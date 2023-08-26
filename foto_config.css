@@ -1,0 +1,46 @@
+.fotos{
+    display:flex;
+    border: 1px solid black;
+    height:100%;
+    width:100%;
+    justify-content:space-evenly;
+    align-items:first baseline;
+    flex-wrap:wrap;
+    margin-bottom:100px;
+}
+.image{
+    position:relative;
+    width:600px;
+    margin-bottom:20px;
+}
+.image__img{
+    display:block;
+    width:100%;
+    border-radius:10px;
+}
+.image__overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgb(0,0,0,0.6);
+    color:blanchedalmond;
+    font-family:sans-serif;
+    display:flex;
+    flex-direction:row;
+    border-radius:10px;
+    opacity:0;
+    transition:0.6s;
+}
+.image__overlay:hover{
+    opacity:1;
+    transition:0.6s;
+    cursor:pointer;
+}
+.image__title{
+    font-size:1em;
+    font-style:italic;
+    margin-left:40px;
+    margin-top:20px;
+}
