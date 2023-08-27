@@ -10,16 +10,12 @@ header{
 	padding:10px;
 	margin-bottom:100px;
 	text-align: center;
+	border-radius: 10px;
 }
 h1{
 	font-size: 50px;
 }
 .logos{
-	display:flex;
-	flex-wrap:nowrap;
-	justify-content:space-evenly;
-	/*border:1px solid black;*/
-	text-align:center;
 	position:relative;
 	padding:10px;
 	isolation:isolate;
@@ -34,7 +30,14 @@ h1{
 	left:0px;
 	right:0px;
 	background-color:ghostwhite;
-	opacity:0.4;
+	opacity: 0.4;
+	border-radius: 10px;
+}
+.logo_minecraft{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-evenly;
+	text-align:center;
 }
 #undertale{
 	border-radius: 10px;
@@ -51,9 +54,18 @@ body{
 	background-attachment:fixed;
 	background-size:cover;
 }
-img{
+.ut_serie{
+	display:block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.ut_descarga{
 	width:100%;
 	object-fit:contain;
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-evenly;
+	text-align:center;
 }
 video{
 	width:100%;
