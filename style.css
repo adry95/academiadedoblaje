@@ -59,6 +59,9 @@ body{
 	margin-bottom: 20px;
 	text-align: center;
 }
+iframe{
+	border-radius: 20px;
+}
 .ut_descarga{
 	width:100%;
 	object-fit:contain;

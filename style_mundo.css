@@ -17,6 +17,7 @@ main{
 }
 iframe{
 	float:center;
+	border-radius: 20px;
 }
 video{
 	display:block;
