@@ -1,5 +1,10 @@
+@font-face{
+	font-family: Determination-Sans;
+	src:url(det-sans.ttf);
+}
 html{
 	font-family: sans-serif, arial, verdana;
+	font-size:20px;
 }
 main{
 	margin-left:20px;
@@ -7,19 +12,23 @@ main{
 }
 header{
 	background-color:lemonchiffon;
-	padding:10px;
+	padding:5px;
 	margin-bottom:100px;
 	text-align: center;
 	border-radius: 10px;
 }
-h1{
-	font-size: 50px;
+#cabecero{
+	font-size: 100px;
+	font-family: Determination-Sans;
+	margin:10px;
+
 }
 .logos{
 	position:relative;
 	padding:10px;
 	isolation:isolate;
 	overflow:visible;
+	font-size: 25px;
 }
 .logos::after{
 	content:'';
@@ -45,7 +54,7 @@ h1{
 #titulo_center{
 	text-align:center;
 	color:white;
-	font-size:25px;
+	font-size:30px;
 }
 body{
 	background-image:url(misc/fondo.png);
