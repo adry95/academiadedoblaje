@@ -1,6 +1,14 @@
 @font-face{
 	font-family: Determination-Sans;
-	src:url(det-sans.ttf);
+	src:url(fonts/det-sans.ttf);
+}
+@font-face{
+	font-family: Minecraft-Ten;
+	src:url(fonts/MinecraftTen.ttf);
+}
+@font-face{
+	font-family: Minecraft-Regular;
+	src:url(fonts/Minecraftia-Regular.ttf);
 }
 html{
 	font-family: sans-serif, arial, verdana;
@@ -26,9 +34,10 @@ body{
 }
 
 #cabecero{
-	font-size: 100px;
-	font-family: Determination-Sans;
+	font-size: 80px;
+	font-family: Minecraft-Ten;
 	margin:10px;
+	color: black;
 
 }
 .logos{
@@ -47,7 +56,7 @@ body{
 	left:0px;
 	right:0px;
 	background-color:ghostwhite;
-	opacity: 0.4;
+	opacity: 0.5;
 	border-radius: 10px;
 }
 .logo_minecraft{
@@ -55,6 +64,7 @@ body{
 	flex-wrap:nowrap;
 	justify-content:space-evenly;
 	text-align:center;
+	font-size: 40px;
 }
 #undertale{
 	border-radius: 10px;
@@ -62,12 +72,13 @@ body{
 #titulo_center{
 	text-align:center;
 	color:white;
-	font-size:30px;
+	font-size:40px;
 }
 .ut_serie{
 	display:block;
 	margin-bottom: 20px;
 	text-align: center;
+	font-size: 40px;
 }
 iframe{
 	border-radius: 20px;
@@ -79,8 +90,16 @@ iframe{
 	flex-wrap:nowrap;
 	justify-content:space-evenly;
 	text-align:center;
+	font-size: 40px;
 }
 video{
 	width:100%;
 	object-fit:contain;
+}
+.otros{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-evenly;
+	text-align:center;
+	font-size: 30px;
 }
