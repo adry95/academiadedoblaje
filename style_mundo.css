@@ -11,18 +11,12 @@ html{
 	color:white;
 	font-size:1.5em;
 }
+
 h1{
 	font-size:40px
 }
 h4{
 	font-size:0.8em;
-}
-#back_button{
-	margin-left: 20px;
-	position: absolute;
-}
-#titulo_center{
-	text-align:center;
 }
 iframe{
 	float:center;
@@ -40,4 +34,12 @@ footer{
 	font-size: 0.7em;
 	text-align:center;
 	margin-top:100px;
+}
+
+#back_button{
+	margin-left: 20px;
+	position: absolute;
+}
+#titulo_center{
+	text-align:center;
 }

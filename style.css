@@ -6,25 +6,26 @@
 	font-family: Minecraft-Ten;
 	src:url(fonts/MinecraftTen.ttf);
 }
-@font-face{
-	font-family: Minecraft-Regular;
-	src:url(fonts/Minecraftia-Regular.ttf);
-}
 html{
-	font-family: sans-serif, arial, verdana;
+	font-family: Determination-Sans, arial, verdana;
 	font-size:20px;
 }
-main{
-	margin-left:20px;
-	margin-right:20px;
-}
+
 header{
 	background-color:lemonchiffon;
+	color: black;
+	font-size: 1.5em;
 	padding:5px;
 	margin-bottom:100px;
 	text-align: center;
 	border-radius: 10px;
 }
+#cabecero{
+	font-size: 100px;
+	font-family: Minecraft-Ten;
+	margin:10px;
+}
+
 body{
 	background-image:url(misc/fondo.png);
 	background-repeat:no-repeat;
@@ -32,22 +33,43 @@ body{
 	background-attachment:fixed;
 	background-size:cover;
 }
-
-#cabecero{
-	font-size: 80px;
-	font-family: Minecraft-Ten;
-	margin:10px;
-	color: black;
-
+main{
+	margin-left:20px;
+	margin-right:20px;
 }
-.logos{
+iframe{
+	border-radius: 20px;
+}
+video{
+	width:100%;
+	object-fit:contain;
+}
+footer{
+	color:white;
+	text-align:center;
+}
+
+
+.section_title{
+	text-align:center;
+	color:white;
+	font-size:50px;
+	font-variant: small-caps;
+}
+.section_subtitle{
+	text-align:center;
+	color:black;
+	font-size:40px;
+	font-variant: small-caps;
+}
+.container{
 	position:relative;
 	padding:10px;
 	isolation:isolate;
 	overflow:visible;
 	font-size: 25px;
 }
-.logos::after{
+.container::after{
 	content:'';
 	position:absolute;
 	z-index:-1;
@@ -59,47 +81,29 @@ body{
 	opacity: 0.5;
 	border-radius: 10px;
 }
-.logo_minecraft{
+.contents{
+	width:100%;
+	object-fit:contain;
 	display:flex;
 	flex-wrap:nowrap;
 	justify-content:space-evenly;
 	text-align:center;
 	font-size: 40px;
 }
-#undertale{
+#undertale_serie{
+	display:block;
+	text-align:center;
+	margin-bottom: 50px;
+}
+#undertale_media{
 	border-radius: 10px;
 }
-#titulo_center{
-	text-align:center;
-	color:white;
-	font-size:40px;
-}
-.ut_serie{
-	display:block;
-	margin-bottom: 20px;
-	text-align: center;
-	font-size: 40px;
-}
-iframe{
-	border-radius: 20px;
-}
-.ut_descarga{
-	width:100%;
-	object-fit:contain;
-	display:flex;
-	flex-wrap:nowrap;
-	justify-content:space-evenly;
-	text-align:center;
-	font-size: 40px;
-}
-video{
-	width:100%;
-	object-fit:contain;
-}
-.otros{
+
+#otros{
 	display:flex;
 	flex-wrap:nowrap;
 	justify-content:space-evenly;
 	text-align:center;
 	font-size: 30px;
+	color:black;
 }
