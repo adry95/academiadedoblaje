@@ -26,18 +26,18 @@
     left:0;
     height:100%;
     width:100%;
-    background:black;
-    color:blanchedalmond;
+    background:rgba(0,0,0,0.6);
+    color:white;
     font-family:sans-serif;
     display:flex;
     flex-direction:row;
     border-radius:10px;
     opacity:0;
-    transition:0.6s;
+    transition:0.5s;
 }
 .image__overlay:hover{
     opacity:1;
-    transition:0.6s;
+    transition:0.5s;
     cursor:pointer;
 }
 .image__title{
@@ -48,5 +48,5 @@
     margin-top:20px;
     margin-bottom:20px;
     font-family: Minecraft-Regular, arial;
-    font-size: 20px;
+    font-size:20px;
 }
