@@ -1,17 +1,30 @@
+@font-face{
+	font-family: Minecraft-Regular;
+	src:url(fonts/Minecraftia-Regular.ttf);
+}
+
 html{
-	font-family: arial, verdana;
-	background-color:lemonchiffon;
+	font-family: Minecraft-Regular, arial, verdana;
+	background-color:rgb(40, 40, 40);
+	background-image: url(misc/deepslate.png);
+	background-repeat: repeat;
+	color:white;
+	font-size:1.5em;
 }
 h1{
-	font-size:50px
+	font-size:40px
 }
 h4{
-	font-size:20px
+	font-size:0.8em;
 }
-main{
+#back_button{
+	margin-left: 20px;
+	position: absolute;
+}
+/*main{
 	margin-left:60px;
 	margin-right:20px;
-}
+}*/
 #titulo_center{
 	text-align:center;
 }
@@ -26,9 +39,9 @@ video{
 	margin-bottom: 100px;
 	border-radius: 10px;
 }
-button:hover{
-	background-color:tomato;
-}
-button:not(hover){
-	background-color:green;
+footer{
+	color:white;
+	font-size: 0.7em;
+	text-align:center;
+	margin-top:100px;
 }

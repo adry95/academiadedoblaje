@@ -12,6 +12,8 @@
     position:relative;
     width:600px;
     margin-bottom:20px;
+    margin-left:5px;
+    margin-right:5px;
 }
 .image__img{
     display:block;
@@ -24,7 +26,7 @@
     left:0;
     height:100%;
     width:100%;
-    background:rgb(0,0,0,0.6);
+    background:black;
     color:blanchedalmond;
     font-family:sans-serif;
     display:flex;
@@ -42,7 +44,9 @@
     font-size:1.3em;
     font-style:italic;
     margin-left:40px;
+    margin-right:40px;
     margin-top:20px;
-    margin-right:20px;
-    margin-bottom:20px
+    margin-bottom:20px;
+    font-family: Minecraft-Regular, arial;
+    font-size: 20px;
 }
