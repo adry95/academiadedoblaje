@@ -94,6 +94,10 @@ footer{
 	text-align:center;
 	font-size: 40px;
 }
+.subcontents{
+	width: 25%;
+}
+
 #undertale_serie{
 	display:block;
 	text-align:center;
