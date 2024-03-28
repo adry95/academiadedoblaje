@@ -12,8 +12,8 @@ html{
 }
 
 header{
-	background-image: url(misc/deepslate.png);
-	background-color:lemonchiffon;
+	/*background-image: url(misc/deepslate.png);*/
+	background-color:rgb(27, 217, 106);
 	color: white;
 	font-size: 1.5em;
 	padding: 5px;
@@ -29,7 +29,7 @@ header{
 
 body{
 	/*background-image:url(misc/fondo_02.png);*/
-	background-color:rgb(0, 0, 0);
+	background-color:rgb(22, 24, 28);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -59,13 +59,13 @@ footer{
 }
 .section_subtitle{
 	text-align:center;
-	color:black;
+	color:white;
 	font-size:40px;
 	font-variant: small-caps;
 }
 .container{
 	position:relative;
-	padding:10px;
+	padding:30px;
 	isolation:isolate;
 	overflow:visible;
 	font-size: 25px;
@@ -78,14 +78,17 @@ footer{
 	bottom:0px;
 	left:0px;
 	right:0px;
-	background-color:ghostwhite;
-	opacity: 0.6;
-	border-radius: 20px;
+	/*background-color:rgb(22, 24, 28);
+	opacity: 1;*/
+	border-radius: 50px;
 }
 .contents{
+	color:darkgray;
 	width:100%;
+	row-gap: 80px;
+	column-gap: 10px;
 	object-fit:contain;
-	display:flex;
+	display: flex;
 	flex-wrap:wrap;
 	justify-content:space-evenly;
 	text-align:center;
@@ -93,5 +96,8 @@ footer{
 }
 .subcontents{
 	width:20%;
+	height: 250px;
 	font-size: 30px;
+	background-color: rgb(38, 41, 47);
+	border-radius: 50px;
 }
