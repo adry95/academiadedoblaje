@@ -12,19 +12,21 @@ html{
 }
 
 header{
-	background-image: url(misc/deepslate.png);
-	background-color:lemonchiffon;
+	/*background-image: url(misc/deepslate.png);
+	background-color:rgb(38, 41, 47);*/
 	color: white;
 	font-size: 1.5em;
 	padding: 5px;
 	margin-bottom:100px;
 	text-align: center;
 	border-radius: 10px;
+	text-shadow: 5px 3px black;
 }
 #cabecero{
 	font-size: 100px;
 	font-family: Minecraft-Ten;
 	margin:10px;
+	text-shadow: 7px 7px black;
 }
 
 body{
@@ -59,6 +61,7 @@ footer{
 	color:white;
 	font-size:50px;
 	font-variant: small-caps;
+	text-shadow: 5px 3px black;
 }
 .section_subtitle{
 	text-align:center;
