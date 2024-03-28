@@ -97,6 +97,8 @@ footer{
 .subcontents{
 	width:20%;
 	height: 250px;
+	min-width: 250px;
+	max-width: 300px;
 	font-size: 30px;
 	background-color: rgb(38, 41, 47);
 	border-radius: 50px;
