@@ -19,7 +19,6 @@ comentario_pueblokebab[12] = "Alzado del ayuntamiento de Villa Kebab";
 comentario_pueblokebab[14] = "Adri y Diego con armadura de netherite";
 comentario_pueblokebab[15] = "Tumba del difunto Cat, gato mascota de adry95";
 comentario_pueblokebab[16] = "Adri y Dani presenciando el entierro de Cat";
-comentario_pueblokebab[17] = "Adri y Dani presenciando el entierro de Cat";
 comentario_pueblokebab[21] = "Creeper eléctrico";
 comentario_pueblokebab[22] = "La End City más grande que he visto";
 comentario_pueblokebab[23] = "El inicio del puente";
