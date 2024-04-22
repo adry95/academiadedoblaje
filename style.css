@@ -98,7 +98,8 @@ footer{
 	font-size: 40px;
 }
 .subcontents{
-	width: 25%;
+	min-width: 20%;
+	object-fit: scale-down;
 }
 
 #undertale_serie{
@@ -117,4 +118,5 @@ footer{
 	text-align:center;
 	font-size: 30px;
 	color:black;
+	column-gap: 50px;
 }
