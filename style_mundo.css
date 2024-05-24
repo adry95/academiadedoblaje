@@ -2,9 +2,13 @@
 	font-family: Minecraft-Regular;
 	src:url(fonts/f77-minecraft-font/F77MinecraftRegular-0VYv.ttf);
 }
+@font-face{
+	font-family: Minecraftia;
+	src:url(fonts/minecraftia.ttf);
+}
 
 html{
-	font-family: Minecraft-Regular, arial, verdana;
+	font-family: Minecraftia, arial, verdana;
 	background-color:rgb(40, 40, 40);
 	background-image: url(misc/deepslate.png);
 	background-repeat: repeat;
@@ -14,9 +18,11 @@ html{
 
 h1{
 	font-size:2em;
+	line-height: 150%;
 }
 h4{
 	font-size:1em;
+	line-height: 150%;
 }
 iframe{
 	float:center;
