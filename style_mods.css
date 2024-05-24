@@ -12,14 +12,14 @@ html{
 }
 
 header{
-	/*background-image: url(misc/deepslate.png);*/
 	background-color:rgb(27, 217, 106);
 	color: white;
 	font-size: 1.5em;
 	padding: 5px;
-	margin-bottom:100px;
 	text-align: center;
 	border-radius: 10px;
+	width: 60%;
+	margin: 0 auto;
 }
 #cabecero{
 	font-size: 100px;
