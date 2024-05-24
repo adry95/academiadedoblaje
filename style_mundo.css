@@ -48,7 +48,8 @@ a{
 
 #back_button{
 	margin-left: 20px;
-	position: absolute;
+	position: fixed;
+	top: 50px;
 }
 #titulo_center{
 	text-align:center;
