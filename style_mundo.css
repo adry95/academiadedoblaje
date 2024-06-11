@@ -1,6 +1,6 @@
 @font-face{
-	font-family: Minecraft-Regular;
-	src:url(fonts/f77-minecraft-font/F77MinecraftRegular-0VYv.ttf);
+	font-family: Minecraft;
+	src:url(fonts/Minecraft.otf);
 }
 @font-face{
 	font-family: Minecraftia;
@@ -8,7 +8,7 @@
 }
 
 html{
-	font-family: Minecraftia, arial, verdana;
+	font-family: Minecraft, arial, verdana;
 	background-color:rgb(40, 40, 40);
 	/*background-image: url(misc/sculk.gif);*/
 	background-repeat: repeat;
