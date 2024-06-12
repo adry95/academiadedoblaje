@@ -2,7 +2,6 @@
 audio_confirm = new Audio("misc/snd_confirm.mp3");
 
 // Comentarios de las fotos
-
 var comentario_pueblokebab = [];
 comentario_pueblokebab[1] = "El granero en sus inicios";
 comentario_pueblokebab[2] = "El granero en la actualidad";
@@ -138,7 +137,7 @@ function clickImage() {
     audio_confirm.play();
   }
 
-
+// Funcion de mostrar las fotos
 function photo_display(_folder, total_image_number) {
     var codeBlock = "";
     var comentario = [];
@@ -157,7 +156,7 @@ function photo_display(_folder, total_image_number) {
                     '<img class="image__img" src="fotos-'+_folder+'/foto_'+i+'.png">';
                     if (comentario[i] !== undefined) {
                         codeBlock +='<div class="image__overlay">' +
-                                    '<div class="image__title">&quot;'+comentario[i]+'&quot;</div>' +
+                                    '<div class="image__title">'+comentario[i]+'</div>' +
                                     '</div>' +
                                     '</div></a>';
                     }

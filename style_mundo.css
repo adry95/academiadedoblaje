@@ -2,18 +2,26 @@
 	font-family: Minecraft;
 	src:url(fonts/Minecraft.otf);
 }
-@font-face{
-	font-family: Minecraftia;
-	src:url(fonts/minecraftia.ttf);
+@keyframes pan {
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: 200% 20%;
+	}
 }
+
 
 html{
 	font-family: Minecraft, arial, verdana;
 	background-color:rgb(40, 40, 40);
-	/*background-image: url(misc/sculk.gif);*/
 	background-repeat: repeat;
 	color:white;
 	font-size:1.5em;
+	animation-name: pan;
+	animation-duration: 180s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 h1{
