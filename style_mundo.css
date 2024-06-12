@@ -22,6 +22,7 @@ html{
 	animation-duration: 180s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	margin-top: 50px;
 }
 
 h1{
