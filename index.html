@@ -16,8 +16,11 @@
 <!-- SECCION DE MINECRAFT -->
 	<p class="section_title"><b>- Minecraft -</b></p>
 
-	<div class="container">
-		<div class="contents">
+	<div class="container" id="minecraft_section">
+
+		<!-- Series de Verano -->
+		<p class="section_subtitle"><b>- Serie de Verano -</b></p>
+		<div class="contents" id="serie_verano">
 			<div>
 				<p>Temporada 1 - Pueblo Kebab</p><br>
 				<a href="pueblokebab.html" target="_self" title="Minecraft: Pueblo Kebab">
@@ -34,6 +37,58 @@
 					<img src="misc/titulo_valle.png" alt="Título Valle Kebab" width="500px"></a>
 			</div>
 		</div>
+
+		<!-- Miscelanea -->
+		<p class="section_subtitle"><b>- Miscelanea -</b></p>
+
+		<div class="contents" id="miscelanea">
+			<div id="lista_mods">
+				<p><u>Lista de Mods</u></p>
+			<p>Minecraft Fabric<br>Mods que mejoran el gameplay<br>sin cambiar el juego base.</p>
+			<a href="mod_list.html" target="_blank" title="Lista de mods" rel="noreferrer">
+				<img src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" alt="Lista de mods" height="110px"></a>
+			</div>
+			
+			<div id="minecraft_packs">
+				<p><u>Paquete de texturas<br>Maricón</u></p>
+			<p>Minecraft 1.20.6<br>Reemplaza algunos sonidos del<br>juego por otros más graciosos.</p>
+			<a href="https://drive.google.com/file/d/1DGExkQLVk7PcTcaubJ6hTbD1_8awTq9i/view?usp=sharing" target="_blank" title="Descargar Maricón Texturas" rel="noreferrer">
+				<img src="misc/minecraft-texturepack.png" alt="Maricón Texturas" height="80px"></a>
+			</div>
+
+			<div id="minecraft_packs">
+				<p><u>Paquete de datos<br>Sentarse</u></p>
+				<p>Minecraft 1.20.4+<br>Permite sentarse en bloques<br>con el comando '/trigger sit'.</p>
+				<a href="descargas/datapack-sentarse-1.20.4.zip" target="_self" title="Descargar Sentarse Datapack" rel="noreferrer">
+					<img src="misc/minecraft-datapack.png" alt="Sentarse Datapack" height="80px"></a>
+			</div>
+
+			<div id="minecraft_packs">
+				<p><u>Paquete de datos<br>Abba Rules</u></p>
+				<p>Minecraft 1.20.6<br>Facilita la creación de una<br>partida de "Abba Rules".</p>
+				<a href="descargas/datapack-abbarules-1.20.6.zip" target="_self" title="Descargar AbbaRules Datapack" rel="noreferrer">
+					<img src="misc/minecraft-datapack.png" alt="AbbaRules Datapack" height="80px"></a>
+					<br>
+				<a href="descargas/abbarules-calculadora.xlsx" target="_self" title="Descargar Calculadora de Puntuación de Abba Rules" rel="noreferrer">Descarga la calculadora</a>
+			</div>
+			
+			<div id="minecraft_packs">
+				<p><u>Mapa de aventuras<br>Diminutos V</u></p>
+				<p>Minecraft 1.14.4<br>Una aventura donde<br>eres chiquito.</p>
+				<a href="https://drive.google.com/file/d/19r7pb1MSD9U1roYkNGwN2jKoKthZaO-f/view?usp=sharing" target="_blank" title="Descargar Diminutos V Adventure Map" rel="noreferrer">
+					<img src="misc/minecraft_map.png" alt="Diminutos V Adventure Map" height="80px"></a>
+			</div>
+				<!--
+			<div class="subcontents">
+				<p><u>Mapa de parkour<br>Wind Charged!</u></p>
+				<p>Minecraft 1.21<br>Aprende a usar la<br>carga de viento.</p>
+				<a href="descargas/datapack-lvto_topo-1.20.4.zip" target="_self" title="Descargar Wind Charged! Parkour Map" rel="noreferrer">
+					<img src="misc/minecraft_map.png" alt="Wind Charged! Parkour Map" height="70px"></a>
+					<br>
+			</div>
+				-->
+		</div>
+
 	</div>
 
 	<br><br><br>
@@ -44,99 +99,38 @@
 	<div class="container">
 
 		<!-- Serie en YouTube -->
-		<div id="undertale_serie">
-			<p class="section_subtitle"><b>- Serie en YouTube -</b></p>
+		<p class="section_subtitle"><b>- Serie en YouTube -</b></p>
+		<div class="contents">
 			<iframe width="448" height="252" src="https://www.youtube.com/embed/videoseries?si=v2RlxfLKB7IPbyUi&amp;list=PLyROfgDFwRtmP81t3Z3LUTww0kMYr7f-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>https://youtube.com/playlist?list=PLyROfgDFwRtmP81t3Z3LUTww0kMYr7f-5&si=iuxuWf-t79Lkqspo</iframe>
 		</div>
 
+		<br>
+
 		<!-- Descarga de las series -->
-		<p class="section_subtitle" style="margin-bottom: -20px;"><b>- Descargas -</b></p>
+		<p class="section_subtitle"><b>- Descargas -</b></p>
 		<div class="contents">
-			<div>
-				<p>Neutral</p>
+			<div id="undertale">
+				<p><u>Neutral</u></p>
 				<a href="https://drive.google.com/file/d/1of_CgoRrzVccfSQeCSETmtdRrIL71jtU/view?usp=sharing" target="_blank" title="Undertale: Ruta Neutral">
-					<video id="undertale_media" alt="Undertale: Ruta Neutral" height="200px" autoplay muted loop>
+					<video alt="Undertale: Ruta Neutral" height="200px" autoplay muted loop>
 						<source src="misc/Intro_Friends-1.webm" type="video/webm">
 					</video></a>
 			</div>
-			<div>
-				<p>Pacifista</p>
+			<div id="undertale">
+				<p><u>Pacifista</u></p>
 				<a href="https://drive.google.com/file/d/1HzYz1kEWRg9IY8hrtqlphqMQkzLlJyzq/view?usp=sharing" target="_blank" title="Undertale: Ruta Pacifista">
-					<video id="undertale_media" alt="Undertale: Ruta Pacifista" height="200px" poster="misc/ut_bueno.png" autoplay muted loop>
+					<video alt="Undertale: Ruta Pacifista" height="200px" poster="misc/ut_bueno.png" autoplay muted loop>
 						<source src="misc/intro_evangelion.webm" type="video/webm">
 					</video></a>
 			</div>
-			<div>
-				<p>Genocida</p>
+			<div id="undertale">
+				<p><u>Genocida</u></p>
 				<a href="https://drive.google.com/file/d/1rmYkcxsP_VI91JMe17aS6PWiHlNSgiqC/view?usp=sharing" target="_blank" title="Undertale: Ruta Genocida">
-					<video id="undertale_media" alt="Undertale: Ruta Genocida" height="200px" poster="misc/ut_malo.png" autoplay muted loop>
+					<video alt="Undertale: Ruta Genocida" height="200px" poster="misc/ut_malo.png" autoplay muted loop>
 						<source src="misc/intro_genocida.webm" type="video/webm">
 					</video></a>
 			</div>
 		</div>
-	</div>
-	<br><br><br>
-	
-<!-- SECCION DE OTROS -->
-	<p class="section_title"><b>- Otros -</b></p>
-	
-	<div class="container" id="otros">
-		<div class="subcontents" style="width: 100%; padding-bottom: 80px;">
-			<p><u>Lista de Mods</u></p>
-			<p>Minecraft Fabric<br>Mods que mejoran el gameplay<br>sin cambiar el juego base.</p>
-			<a href="mod_list.html" target="_blank" title="Lista de mods" rel="noreferrer">
-				<img src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" alt="Lista de mods" height="110px"></a>
-		</div>
-
-		<div class="subcontents">
-			<p><u>Paquete de texturas<br>Maricón</u></p>
-			<p>Minecraft 1.20.6<br>Reemplaza algunos sonidos del<br>juego por otros más graciosos.</p>
-			<a href="https://drive.google.com/file/d/1DGExkQLVk7PcTcaubJ6hTbD1_8awTq9i/view?usp=sharing" target="_blank" title="Descargar Maricón Texturas" rel="noreferrer">
-				<img src="misc/minecraft-texturepack.png" alt="Maricón Texturas" height="70px"></a>
-		</div>
-
-		<div class="subcontents">
-			<p><u>Paquete de datos<br>Sentarse</u></p>
-			<p>Minecraft 1.20.4+<br>Permite sentarse en bloques<br>con el comando '/trigger sit'.</p>
-			<a href="descargas/datapack-sentarse-1.20.4.zip" target="_self" title="Descargar Sentarse Datapack" rel="noreferrer">
-				<img src="misc/minecraft-datapack.png" alt="Sentarse Datapack" height="70px"></a>
-		</div>
-
-		<div class="subcontents">
-			<p><u>Paquete de datos<br>Abba Rules</u></p>
-			<p>Minecraft 1.20.6<br>Facilita la creación de una<br>partida de "Abba Rules".</p>
-			<a href="descargas/datapack-abbarules-1.20.6.zip" target="_self" title="Descargar AbbaRules Datapack" rel="noreferrer">
-				<img src="misc/minecraft-datapack.png" alt="AbbaRules Datapack" height="70px"></a>
-				<br>
-			<a href="descargas/abbarules-calculadora.xlsx" target="_self" title="Descargar Calculadora de Puntuación de Abba Rules" rel="noreferrer">Descarga la calculadora</a>
-		</div>
-<!--
-		<div class="subcontents">
-			<p><u>Paquete de datos<br>Lvto. Topográfico</u></p>
-			<p>Minecraft 1.20.4<br>Crea lvtos. topográficos<br>del terreno.</p>
-			<a href="descargas/datapack-lvto_topo-1.20.4.zip" target="_self" title="Descargar Lvto. Topográfico Datapack" rel="noreferrer">
-				<img src="misc/minecraft-datapack.png" alt="Lvto. Topográfico Datapack" height="150px"></a>
-				<br>
-			<i>(Avanza hacia el sur).</i>
-		</div>
--->
-
-		<div class="subcontents">
-			<p><u>Mapa de aventuras<br>Diminutos V</u></p>
-			<p>Minecraft 1.14.4<br>Una aventura donde<br>eres chiquito.</p>
-			<a href="https://drive.google.com/file/d/19r7pb1MSD9U1roYkNGwN2jKoKthZaO-f/view?usp=sharing" target="_blank" title="Descargar Diminutos V Adventure Map" rel="noreferrer">
-				<img src="misc/minecraft_map.png" alt="Diminutos V Adventure Map" height="70px"></a>
-				<br>
-		</div>
-<!--
-		<div class="subcontents">
-			<p><u>Mapa de parkour<br>Wind Charged!</u></p>
-			<p>Minecraft 1.21<br>Aprende a usar la<br>carga de viento.</p>
-			<a href="descargas/datapack-lvto_topo-1.20.4.zip" target="_self" title="Descargar Wind Charged! Parkour Map" rel="noreferrer">
-				<img src="misc/minecraft_map.png" alt="Wind Charged! Parkour Map" height="70px"></a>
-				<br>
-		</div>
--->
 	</div>
 	</main>
 	

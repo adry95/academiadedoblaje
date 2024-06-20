@@ -10,23 +10,13 @@ html{
 	font-family: Determination-Sans, arial, verdana;
 	font-size:20px;
 }
-
 header{
 	color: white;
 	font-size: 1.5em;
 	padding: 5px;
-	margin-bottom:100px;
 	text-align: center;
-	border-radius: 10px;
 	text-shadow: 3px 3px black;
 }
-#cabecero{
-	font-size: 100px;
-	font-family: Minecraft-Ten;
-	margin:10px;
-	text-shadow: 7px 7px black;
-}
-
 body{
 	background-image:url(misc/fondo_02.png);
 	background-position: center;
@@ -41,10 +31,12 @@ main{
 }
 iframe{
 	border-radius: 20px;
+	margin-top: 40px;
 }
 video{
 	width:100%;
 	object-fit:contain;
+	border-radius: 10px;
 }
 footer{
 	margin-top: 100px;
@@ -53,26 +45,35 @@ footer{
 	font-size: 1.2em;
 }
 
+/* _______ AJUSTES DE CLASES ________ */
 
+#cabecero{
+	font-size: 100px;
+	font-family: Minecraft-Ten;
+	margin:10px;
+	text-shadow: 7px 7px black;
+}
 .section_title{
 	text-align:center;
 	color:white;
-	font-size:50px;
+	font-size:70px;
 	font-variant: small-caps;
 	text-shadow: 3px 3px black;
+	margin-bottom: 20px;
 }
 .section_subtitle{
 	text-align:center;
 	color:black;
-	font-size:40px;
+	font-size:50px;
 	font-variant: small-caps;
+	margin-bottom: 0px;
+	margin-top: 40px;
 }
 .container{
 	position:relative;
 	padding:10px;
 	isolation:isolate;
 	overflow:visible;
-	font-size: 25px;
 }
 .container::after{
 	content:'';
@@ -83,39 +84,40 @@ footer{
 	left:0px;
 	right:0px;
 	background-color:ghostwhite;
-	opacity: 0.6;
-	border-radius: 10px;
+	opacity: 0.7;
+	border-radius: 30px;
 }
 .contents{
 	width:100%;
-	object-fit:contain;
+	/*object-fit:contain;*/
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-evenly;
 	text-align:center;
-	font-size: 40px;
-	margin-bottom: 50px;
-}
-.subcontents{
-	min-width: 20%;
 	object-fit: scale-down;
+	min-width: 20%;
+	column-gap: 50px;
+	padding-bottom: 40px;
+	padding-top: 0px;
 }
 
-#undertale_serie{
+/* ____ SECCION DE MINECRAFT ____*/
+/*#minecraft_section{}*/
+#serie_verano{
+	font-size: 40px;
+}
+#miscelanea{
+	font-size: 30px;
+}
+#lista_mods{
+	width: 100%;
+	margin-bottom: 50px;
+}
+/*#minecraft_packs{}*/
+
+/* ____ SECCION DE UNDERTALE ____*/
+#undertale{
 	display:block;
 	text-align:center;
-	margin-bottom: 50px;
-}
-#undertale_media{
-	border-radius: 10px;
-}
-
-#otros{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-evenly;
-	text-align:center;
-	font-size: 30px;
-	color:black;
-	column-gap: 50px;
+	font-size: 40px;
 }
