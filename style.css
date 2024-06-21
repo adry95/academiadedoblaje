@@ -13,7 +13,7 @@ html{
 header{
 	color: white;
 	font-size: 1.5em;
-	padding: 5px;
+	margin-top: 50px;
 	text-align: center;
 	text-shadow: 3px 3px black;
 }
@@ -52,6 +52,8 @@ footer{
 	font-family: Minecraft-Ten;
 	margin:10px;
 	text-shadow: 7px 7px black;
+	width: 700px;
+	display: inline-flex;
 }
 .section_title{
 	text-align:center;
