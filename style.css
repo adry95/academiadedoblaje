@@ -4,7 +4,15 @@
 }
 @font-face{
 	font-family: Minecraft-Ten;
-	src:url(fonts/MinecraftTen.ttf);
+	src:url(fonts/minecraft-ten.ttf);
+}
+@font-face{
+	font-family: Minecraft-Five;
+	src:url(fonts/minecraft-five.ttf);
+}
+@font-face{
+	font-family: Minecraft-Seven;
+	src:url(fonts/minecraft-seven.otf);
 }
 html{
 	font-family: Determination-Sans, arial, verdana;
@@ -56,9 +64,10 @@ footer{
 	display: inline-flex;
 }
 .section_title{
+	font-family: Minecraft-Five;
 	text-align:center;
 	color:white;
-	font-size:70px;
+	font-size:50px;
 	font-variant: small-caps;
 	text-shadow: 3px 3px black;
 	margin-bottom: 20px;
@@ -109,7 +118,7 @@ footer{
 	font-size: 40px;
 }
 #miscelanea{
-	font-size: 30px;
+	font-size: 35px;
 }
 #lista_mods{
 	width: 100%;
