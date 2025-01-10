@@ -18,7 +18,7 @@ header{
 	padding: 5px;
 	text-align: center;
 	border-radius: 10px;
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 }
 #cabecero{
@@ -102,4 +102,5 @@ footer{
 	font-size: 30px;
 	background-color: rgb(38, 41, 47);
 	border-radius: 50px;
+	cursor: help;
 }
