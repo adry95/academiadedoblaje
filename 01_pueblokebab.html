@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><!--Titulo de la pestaña-->
+	<head>
+		<title>Pueblo Kebab</title>
+		<link rel="icon" type="image/png" href="favicon/grass_block_side.png">
+	</head>
+	<body><!--Inicio del body y del header-->
+	<header>
+		<div> <!-- Boton de atras -->
+			<a href="index.html" target="_self" title="Volver a la página principal">
+				<img src="misc/back_button.png" alt="Atrás" height="50px" id="back_button" onmouseover="onHover_back();" onmouseout="offHover_back();" onmousedown="clickImage();"/> 
+			</a>
+		</div>
+		<div id="titulo_center">
+		<!-- CSS -->
+		<link rel="stylesheet" href="style_mundo.css">
+		<link rel="stylesheet" href="foto_config.css">
+		<style>html{background-image: url(misc/blackstone_wall.png);}</style>
+		<!-- JS -->
+		<script src="world_script.js"></script> 
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <!-- API de JQuery -->
+			<!--Titulo-->
+			<img src="misc/titulo_pueblo.png" alt="Logo de Pueblo Kebab" width="700px">
+			<h1>Temporada 1</h1>
+			<h4>Iniciado el 7 de junio de 2020 y finalizado el 20 de agosto de 2020</h4>
+			<h4>Creado en la versión 1.16.4</h4>
+		</div>
+	</header>
+
+	<br>
+	
+	<!--Boton de descarga del mapa-->
+		<div id="titulo_center">
+		<h3><b>- Descarga del mundo -</b>
+			<div class="descarga"> <!-- Boton en sí -->
+				<a href="https://drive.google.com/file/d/142-tH9DuL_2erWWI6Wc5tfnQYcXGuJ7N/view?usp=sharing" target="_self" title="Descargar mundo">
+					<img src="misc/download_minecraft.png" alt="Descargar Mapa" height="80px" id="download_button" onmouseover="onHover();" onmouseout="offHover();" onmousedown="clickImage();"/> 
+				</a>
+			</div></h3></div>
+		
+	<br><br>
+		
+	<!--Fotos-->
+		<h3 id="titulo_center"><b>- Fotos -</b></h3>
+		
+		<div class="fotos" id="photos">
+			<script>photo_display("pueblokebab",100);</script>
+		</div>
+	<br>
+	<!-- Foto de la Wifi de Diego -->
+	<div class="fotos" id="photos">
+		<a href="fotos-pueblokebab/foto_101.png" target="_blank">
+			<div class="image">
+				<img class="image__img" src="fotos-pueblokebab/foto_101.png">
+					<div class="image__overlay">
+						<div class="image__title">&quot;Chicos, me he quedado sin wifi&quot;</div>
+					</div>
+			</div>
+		</a>
+	</div>
+
+	<footer>
+		<p>Hecho por el mismísimo de la Candelaria</p>
+	</footer>
+
+	</body>	
+</html>
