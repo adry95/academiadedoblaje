@@ -7,15 +7,17 @@
 	<body><!--Inicio del body y del header-->
 	<header>
 		<div> <!-- Boton de atras -->
-			<a href="index.html" target="_self" title="Volver a la página principal">
-				<img src="misc/back_button.png" alt="Atrás" height="50px" id="back_button" onmouseover="onHover_back();" onmouseout="offHover_back();" onmousedown="clickImage();"/> 
+			<a href="javascript:history.back()" target="_self" title="Volver a la página principal">
+				<img src="misc/back_button.png" alt="Atrás" height="50px" id="back_button" onmouseover="onHover_back();" onmouseout="offHover_back();"/> 
 			</a>
 		</div>
 		<div id="titulo_center">
 		<!-- CSS -->
 		<link rel="stylesheet" href="style_mundo.css">
 		<link rel="stylesheet" href="foto_config.css">
-		<style>html{background-image: url(https://minecraft.wiki/images/BlockSprite_cobbled-deepslate.png?2854b);}</style>
+		<style>html{background-image: 	linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
+										url(https://minecraft.wiki/images/BlockSprite_cobbled-deepslate.png?2854b);}
+		</style>
 		<!-- JS -->
 		<script src="world_script.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <!-- API de JQuery -->
@@ -52,9 +54,8 @@
 	<h3 id="titulo_center"><b>- Fotos -</b></h3>
 
 	<div class="fotos" id="photos">
-		<!--<script>photo_display("vallekebab",121);</script>-->
-
 		<script>
+			//photo_display("vallekebab",121);
 		photo("https://cdn.discordapp.com/attachments/986312289886023710/986528645172572160/2022-06-14_22.24.15.png?ex=67d32e25&is=67d1dca5&hm=3f28d5a8bc97721fbfa55d1651860c2f7a2725db2c15db32d5a90a8a131eed10&","Comienzo");
 		photo("https://cdn.discordapp.com/attachments/986312289886023710/986773744733257759/2022-06-15_23.26.41.png?ex=67d2c0ea&is=67d16f6a&hm=194d9cb55d928dcf5bbe27b86253f0febe3e74b67340fb8d839dcfcf62ecc450&","Granja de aldeanos día 2");
 		photo("https://cdn.discordapp.com/attachments/986312289886023710/986773761313345606/2022-06-15_23.26.52.png?ex=67d2c0ee&is=67d16f6e&hm=c064dcb38a665024314b3e59fa3555cf51296d160f40b060f875bb23ca908ad1&");

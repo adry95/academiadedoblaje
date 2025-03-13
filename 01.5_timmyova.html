@@ -7,8 +7,8 @@
 	<body><!--Inicio del body y del header-->
 	<header>
 		<div> <!-- Boton de atras -->
-			<a href="index.html" target="_self" title="Volver a la página principal">
-				<img src="misc/back_button.png" alt="Atrás" height="50px" id="back_button" onmouseover="onHover_back();" onmouseout="offHover_back();" onmousedown="clickImage();"/> 
+			<a href="javascript:history.back()" target="_self" title="Volver a la página principal">
+				<img src="misc/back_button.png" alt="Atrás" height="50px" id="back_button" onmouseover="onHover_back();" onmouseout="offHover_back();"/>
 			</a>
 		</div>
 		<div id="titulo_center">
@@ -52,11 +52,14 @@
 		<h3 id="titulo_center"><b>- Fotos -</b></h3>
 		
 		<div class="fotos" id="photos">
-			<script>photo_display("ovatimmy",46);</script>
+			<script>
+				//photo_display("ovatimmy",46);
+			photo("");
+			</script>
 		</div>
 		
 		<video height="500px" controls>
-			<source src="fotos-ovatimmy/arbol_update.mp4" type="video/mp4"></video>
+			<source src="https://cdn.discordapp.com/attachments/618133268960772117/898683605302263808/arbol_update.mp4?ex=67d34dd4&is=67d1fc54&hm=f780622cd14c36732a03bafe3f8ec99f54ac0d2a3722d3b535ce71550e759ba4&" type="video/mp4"></video>
 	<footer>
 		<p>Hecho por el loquendero de la Candelaria</p>
 	</footer>
