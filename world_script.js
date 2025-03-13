@@ -166,3 +166,18 @@ function photo_display(_folder, total_image_number) {
         document.getElementById("photos").innerHTML = codeBlock;
     }    
 }
+
+
+function photo(_url,_msg){
+    var codeBlock = "";
+    codeBlock +='<a href="'+_url+'" target="_blank">' +
+                '<div class="image">' +
+                '<img class="image__img" src="'+_url+'">';
+                if (_msg !== undefined) {
+                    codeBlock +='<div class="image__overlay">' +
+                                '<div class="image__title">'+_msg+'</div>' +
+                                '</div>'
+                }
+                codeBlock += '</div></a>';
+    document.getElementById("photos").innerHTML += codeBlock;
+}
