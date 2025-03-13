@@ -67,7 +67,7 @@ comentario_ovatimmy[36] = "GRANJA DE LANA 🐑";
 comentario_ovatimmy[37] = "netherita";
 comentario_ovatimmy[40] = "Pequeña panorámica del pueblo";
 comentario_ovatimmy[46] = "Panorámica final del pueblo";
-
+/*
 var comentario_vallekebab = [];
 comentario_vallekebab[1] = "Comienzo";
 comentario_vallekebab[2] = "Granja de aldeanos día 2";
@@ -111,7 +111,7 @@ comentario_vallekebab[42] = "<b>CUARTA SEMANA</b>";
 comentario_vallekebab[43] = "Rober Wido y Gorrionchu";
 comentario_vallekebab[44] = "Portal al techo del infierno estilo Steampunk";
 comentario_vallekebab[45] = "Mini-adry";
-
+*/
 // Funciones boton de descarga
 function onHover() {
     $("#download_button")
