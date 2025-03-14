@@ -1,18 +1,3 @@
-/* IDs */
-#pueblo-kebab{
-    background-image: url(https://minecraft.wiki/images/BlockSprite_polished-blackstone-bricks.png?a00af);
-}
-#timmy{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://minecraft.wiki/images/BlockSprite_deepslate.png?d7361);
-}
-#valle-kebab{
-    background-image: 	linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://minecraft.wiki/images/BlockSprite_cobbled-deepslate.png?2854b);
-}
-#kebab-mixto{
-    background-image: url(https://minecraft.wiki/images/BlockSprite_spruce-log.png?c29f9);
-}
-
-/* CLASES */
 .fotos{
     display:flex;
     /*border: 1px solid black;*/
