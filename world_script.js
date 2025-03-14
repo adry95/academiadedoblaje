@@ -1,6 +1,6 @@
 // Audio de confirmacion al dar a descargar mapa
 audio_confirm = new Audio("misc/snd_confirm.mp3");
-
+/*
 // Comentarios de las fotos
 var comentario_pueblokebab = [];
 comentario_pueblokebab[1] = "El granero en sus inicios";
@@ -67,7 +67,7 @@ comentario_ovatimmy[36] = "GRANJA DE LANA 🐑";
 comentario_ovatimmy[37] = "netherita";
 comentario_ovatimmy[40] = "Pequeña panorámica del pueblo";
 comentario_ovatimmy[46] = "Panorámica final del pueblo";
-/*
+
 var comentario_vallekebab = [];
 comentario_vallekebab[1] = "Comienzo";
 comentario_vallekebab[2] = "Granja de aldeanos día 2";
@@ -136,7 +136,7 @@ function offHover_back() {
 function clickImage() {
     audio_confirm.play();
   }
-
+/*
 // Funcion de mostrar las fotos
 function photo_display(_folder, total_image_number) {
     var codeBlock = "";
@@ -166,7 +166,7 @@ function photo_display(_folder, total_image_number) {
         document.getElementById("photos").innerHTML = codeBlock;
     }    
 }
-
+*/
 
 function photo(_url,_msg){
     var codeBlock = "";
