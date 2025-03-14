@@ -50,17 +50,14 @@ footer{
 	margin-top: 100px;
 	color:white;
 	text-align:center;
-	font-size: 1.5em;
+	font-size: 2vw;
 	text-shadow: 2px 2px black;
 }
 
 /* _______ AJUSTES DE CLASES ________ */
 
 #cabecero{
-	font-size: 100px;
-	font-family: Minecraft-Ten;
-	margin:10px;
-	text-shadow: 7px 7px black;
+	margin: 50px;
 	width: 64%;
 	display: inline-flex;
 }
@@ -68,7 +65,7 @@ footer{
 	font-family: Minecraft-Five;
 	text-align:center;
 	color:white;
-	font-size:50px;
+	font-size: 70px;
 	font-variant: small-caps;
 	text-shadow: 3px 3px black;
 	margin-bottom: 20px;
@@ -76,7 +73,7 @@ footer{
 .section_subtitle{
 	text-align:center;
 	color:black;
-	font-size:50px;
+	font-size: 50px;
 	font-variant: small-caps;
 	margin-bottom: 0px;
 	margin-top: 40px;
