@@ -17,6 +17,12 @@
 html{
 	font-family: Determination-Sans, arial, verdana;
 	font-size:20px;
+	background-color: black;
+	background-image:url(misc/fondo.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 header{
 	color: white;
@@ -24,14 +30,6 @@ header{
 	margin-top: 50px;
 	text-align: center;
 	text-shadow: 3px 3px black;
-}
-body{
-	background-image:url(misc/fondo.png);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	
 }
 main{
 	margin-left:20px;
@@ -65,7 +63,7 @@ footer{
 	font-family: Minecraft-Five;
 	text-align:center;
 	color:white;
-	font-size: 70px;
+	font-size: 4vw;
 	font-variant: small-caps;
 	text-shadow: 3px 3px black;
 	margin-bottom: 20px;
@@ -73,7 +71,7 @@ footer{
 .section_subtitle{
 	text-align:center;
 	color:black;
-	font-size: 50px;
+	font-size: 70px;
 	font-variant: small-caps;
 	margin-bottom: 0px;
 	margin-top: 40px;
@@ -120,24 +118,36 @@ footer{
   }
 
 /* ____ SECCION DE MINECRAFT ____*/
-/*#minecraft_section{}*/
 #serie_verano{
+	font-size: 50px;
+	align-items: flex-end;
+	padding-bottom: 10%;
+}
+#serie_verano img{
+	height: 150px;
+	width: auto;
+}
+#mundo_eterno{
+	font-size: 40px;
+	align-items: flex-end;
+	padding-top: 50px;
+	padding-bottom: 10%;
+}
+#mundo_eterno img{
+	height: 200px;
+	width: auto;
+}
+#miscelanea{
 	font-size: 40px;
 	align-items: flex-end;
 }
-#miscelanea{
-	font-size: 35px;
-	align-items: flex-end;
-}
-#lista_mods{
-	width: 100%;
-	margin-bottom: 50px;
-}
-/*#minecraft_packs{}*/
 
 /* ____ SECCION DE UNDERTALE ____*/
 #undertale{
 	display:block;
 	text-align:center;
-	font-size: 40px;
+	font-size: 50px;
+}
+#undertale video{
+	height: 250px;
 }
