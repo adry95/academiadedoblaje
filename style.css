@@ -26,7 +26,7 @@ header{
 	text-shadow: 3px 3px black;
 }
 body{
-	background-image:url(misc/fondo_02.png);
+	background-image:url(misc/fondo.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -61,7 +61,7 @@ footer{
 	font-family: Minecraft-Ten;
 	margin:10px;
 	text-shadow: 7px 7px black;
-	width: 700px;
+	width: 64%;
 	display: inline-flex;
 }
 .section_title{
