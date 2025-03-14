@@ -31,11 +31,11 @@ function photo(_url,_msg){
     codeBlock +='<a href="'+_url+'" target="_blank">' +
                 '<div class="image">' +
                 '<img class="image__img" src="'+_url+'">';
-                if (_msg !== undefined) {
-                    codeBlock +='<div class="image__overlay">' +
-                                '<div class="image__title">'+_msg+'</div>' +
-                                '</div>'
-                }
-                codeBlock += '</div></a>';
+    if (_msg !== undefined) {
+        codeBlock +='<div class="image__overlay">' +
+                    '<div class="image__title">'+_msg+'</div>' +
+                    '</div>'
+    }
+    codeBlock += '</div></a>';
     document.getElementById("photos").innerHTML += codeBlock;
 }
