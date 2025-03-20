@@ -10,7 +10,7 @@
 }
 .image{
     position:relative;
-    width:600px;
+    max-width:600px;
     margin-bottom:20px;
     margin-left:5px;
     margin-right:5px;
