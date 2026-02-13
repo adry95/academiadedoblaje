@@ -3,7 +3,7 @@
 	src:url(fonts/minecraft-seven.otf);
 }
 @font-face{
-	font-family: Determination-Sans;
+	font-family: Mineten;
 	src:url(fonts/minecraft-ten.ttf);
 }
 @keyframes pan {
@@ -83,9 +83,10 @@ h1{
 	line-height: 1.5em;
 }
 h2{
-	font-family: Determination-Sans;
+	font-family: Mineten;
+	font-size: 2em;
 	line-height: 10px;
-	text-shadow: 10px;
+	text-shadow: 5px 5px rgb(56, 56, 56);
 }
 h4{
 	font-size:1em;
