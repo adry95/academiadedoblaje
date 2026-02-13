@@ -2,6 +2,10 @@
 	font-family: Minecraft;
 	src:url(fonts/minecraft-seven.otf);
 }
+@font-face{
+	font-family: Mineten;
+	src:url(fonts/minecraft-ten.ttf);
+}
 @keyframes pan {
 	0% {
 		background-position: 0% 0em;
@@ -10,7 +14,7 @@
 		background-position: 200% 100em;
 	}
 }
-
+/* BG IMAGE */
 #pueblo-kebab{
     background-image: url(https://minecraft.wiki/images/BlockSprite_polished-blackstone-bricks.png?a00af);
 }
@@ -27,8 +31,9 @@
     background-image: url(https://minecraft.wiki/images/BlockSprite_pale-oak-log.png?87409);
 }
 
+/* BODY */
 html{
-	font-family: Minecraft, arial, verdana;
+	font-family: Minecraft, arial;
 	background-color:rgb(40, 40, 40);
 	background-repeat: repeat;
 	background-size: 100px; 
@@ -41,15 +46,28 @@ html{
 	animation-iteration-count: infinite;
 	margin-top: 50px;
 }
+body{
+	margin: 0 auto;
+	padding: 0;	
+}
 
+/* HEADERS */
 h1{
 	font-size:2em;
 	line-height: 1.5em;
+}
+
+h2{
+	font-family: Mineten;
+	font-size: 2em;
+	text-shadow: 5px 5px rgb(56, 56, 56);
 }
 h4{
 	font-size:1em;
 	line-height: 1.5em;
 }
+
+/* EMBBED */
 iframe{
 	float:center;
 	border-radius: 20px;
@@ -72,6 +90,70 @@ a{
 	color: fuchsia;
 }
 
+/* DECLARACIÓN DE CLASES */
+.container{
+	display: flex;
+	align-items: center;
+}
+
+.bloque{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	gap: 200px;
+	max-width:min-content;
+	margin: 0 auto;
+}
+.bloque.offset-1{
+	transform: translateX(-0);
+	margin: 0 auto;
+}
+.bloque.offset-2{
+	transform: translateX(0%);
+	margin: 0 auto;
+}
+.bloque.offset-3{
+	transform: translateX(0%);
+	margin: 0 auto;
+}
+.bloque.offset-4{
+	transform: translateX(0%);
+	margin: 0 auto;
+}
+
+.invertido{
+	flex-direction: row-reverse;
+}
+.centro{
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.texto {
+    flex: 0 0 500px;
+	/*color: rgb(64, 64, 64);*/
+    background-color: #ffffff;
+    padding: 30px;
+	max-width:max-content;
+    text-align: left;
+    border-radius: 10px;
+	background-image: url(https://minecraft.wiki/images/BlockSprite_pale-moss-block.png?19851);
+	background-repeat:repeat;
+	background-size: 100%;
+}
+/*.texto h2{
+	color: rgb(48, 48, 48);
+	text-shadow: 3px 3px rgb(193, 193, 193);
+}*/
+.imagen{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* DECLARACIÓN DE ID*/
 #back_button{
 	margin-left: 20px;
 	position: fixed;
@@ -83,4 +165,18 @@ a{
 }
 .descarga{
 	margin-top: 40px;
+}
+
+/*-------------------------------------------------------------*/
+
+@media (max-width: 900px) {
+    .bloque {
+        flex-direction: column;
+    }
+
+    .texto,
+    .imagen {
+        width: 100%;
+        max-width: 100%;
+    }
 }
